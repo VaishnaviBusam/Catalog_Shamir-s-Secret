@@ -92,7 +92,7 @@ vector<Point> readPointsFromJson(const string& filename, int k) {
 }
 
 int main() {
-    string filename = "json_catalog.json";  
+    string filename = "json_catalog.txt";  
     int k = 3;  // We are using 3 points (as given in the input)
     vector<Point> points = readPointsFromJson(filename, k);
 
